@@ -11,20 +11,34 @@
   <video id='my-video'style="width: 640px; height: 480px;">
     <source src='https://ia800701.us.archive.org/26/items/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4' type='video/mp4' />
   </video>
+  <video id='my-video2'style="width: 640px; height: 480px;">
+    <source src='https://ia800701.us.archive.org/26/items/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4' type='video/mp4' />
+  </video>
 <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
 <script>
 fluidPlayer('my-video', {
   vastOptions: {
 	  adList: [
 	    {
+	      roll: "preRoll",
+	      vastTag: "https://asfygvb.webka.com/pr.php?linkId=38bscq5NM8",
+	      adTextPosition: "top right"
+	    }
+	  ]
+	}
+});
+fluidPlayer('my-video2', {
+  vastOptions: {
+	  adList: [
+	    {
 	      roll: "midRoll",
-	      vastTag: "https://promo-1ed1f8d306af.sandbox.rtt.space/pr.php?linkId=KeaPHB8kswF",
+	      vastTag: "https://asfygvb.webka.com/pr.php?linkId=33D7K5nXJD",
 	      adTextPosition: "top right",
 	      timer: "30%"
 	    },
 	    {
 	      roll: "midRoll",
-	      vastTag: "https://promo-1ed1f8d306af.sandbox.rtt.space/pr.php?linkId=KeaPHB8kswF",
+	      vastTag: "https://asfygvb.webka.com/pr.php?linkId=33D7K5nXJD",
 	      adTextPosition: "top right",
 	      timer: "60%"
 	    }
