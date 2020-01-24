@@ -13,15 +13,17 @@
   </video>
 <script src="./fluidplayer.min.js"></script>
 <script>
-fluidPlayer('my-video', {
-  "adList": [
-    {
-      "adTextPosition": "top right",
-      "roll": "midRoll",
-      "vastTag": "https://asfygvb.webka.com/pr.php?linkId=3ZKzbjXugf",
-      "timer": "50%"
-    }
-  ]
+fluidPlayer('my-video', 
+  vastOptions: {
+    "adList": [
+       {
+        "adTextPosition": "top right",
+        "roll": "midRoll",
+        "vastTag": "https://asfygvb.webka.com/pr.php?linkId=3ZKzbjXugf",
+        "timer": "50%"
+      }
+    ]
+  }
 });
 </script>
 </body>
